@@ -7,7 +7,7 @@ pipeline {
         string(name: 'NODE_VERSION', defaultValue: '14.17.0', description: 'Versión de Node.js a utilizar.')
     }
 
-   stages {
+    stages {
         stage('Preparar entorno') {
             steps {
                 sh 'chmod +x crearEntornoNode.sh'
@@ -17,9 +17,7 @@ pipeline {
 
         stage('Crear entorno y ejecutar script') {
             steps {
-                withEnv(["PATH+NODEENV=/home/ec2-user/.local/bin"]) {
-                    sh './crearEntornoNode.sh'
-                }
+                sh "./crearEntornoNode.sh"
             }
         }
     }
