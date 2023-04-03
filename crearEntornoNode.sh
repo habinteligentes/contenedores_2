@@ -23,7 +23,7 @@ cd "$PROJECT_FOLDER"
 echo "Creando entorno virtual de Node.js..."
 
 
-python3 -m nodeenv --node="${NODE_VERSION}" env
+nodeenv --node="${NODE_VERSION}" env
 
 echo "Entorno virtual de Node.js creado."
 
