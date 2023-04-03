@@ -35,5 +35,8 @@ echo "Activando entorno virtual de Node.js..."
 source env/bin/activate
 echo "Entorno virtual de Node.js activado."
 
+echo "Contenido de la carpeta actual:"
+ls
+
 ./ejecutarScript.sh
 
