@@ -32,6 +32,10 @@ ls env
 
 echo "Activando entorno virtual de Node.js..."
 source env/bin/activate
+
+# Instala las dependencias del proyecto
+npm install
+
 chmod +x ../ejecutarScript.sh
 ../ejecutarScript.sh
 
