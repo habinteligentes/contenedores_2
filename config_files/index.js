@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 console.log("Iniciando la operación media...");
 function countDown(seconds) {
     let counter = seconds;
