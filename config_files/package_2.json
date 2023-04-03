@@ -1,0 +1,16 @@
+{
+    "name": "mi-proyecto",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index_2.js",
+    "scripts": {
+      "start": "node index_2.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+      "node": "10.24.1"
+    }
+  }
+  

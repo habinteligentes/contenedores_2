@@ -1,0 +1,14 @@
+{
+    "name": "mi-proyecto_1",
+    "version": "1.0.0",
+    "description": "Proyecto 1 con Node.js más reciente",
+    "main": "index_1.js",
+    "scripts": {
+      "start": "node index_1.js"
+    },
+    "dependencies": {},
+    "engines": {
+      "node": ">=16.0.0"
+    }
+  }
+  
