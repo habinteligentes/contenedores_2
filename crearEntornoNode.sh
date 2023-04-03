@@ -23,7 +23,7 @@ echo "Archivos copiados."
 cd ${PROJECT_FOLDER}
 
 echo "Creando entorno virtual de Node.js..."
-nodeenv --node=${NODE_VERSION} env
+~/.local/bin/nodeenv --node=${NODE_VERSION} env
 echo "Entorno virtual de Node.js creado."
 
 echo "Activando entorno virtual de Node.js..."
