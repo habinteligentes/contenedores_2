@@ -6,7 +6,7 @@
     "scripts": {
       "start": "node index_1.js"
     },
-    "dependencies": {},
+    "dependencies": {"esm": "^3.2.25"},
     "engines": {
       "node": ">=16.0.0"
     }

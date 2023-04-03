@@ -1,4 +1,14 @@
+import { readFile } from 'esm';
+
 console.log("Iniciando la operación más larga...");
+
+readFile('file.txt', (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data.toString());
+});
 
 let counter = 0;
 const interval = setInterval(() => {

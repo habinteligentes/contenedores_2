@@ -12,4 +12,5 @@ function countDown(seconds) {
   }
   
   countDown(40);
-  
+
+console.log(_.add(2, 3)); // Suma 2 + 3 usando la función "add" de lodash
