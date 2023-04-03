@@ -12,5 +12,5 @@ echo "Entorno virtual de Node.js desactivado."
 
 echo "Eliminando entorno virtual..."
 cd ..
-rm -rf "$project_folder"
+rm -rf "$PROJECT_FOLDER"
 echo "Entorno virtual eliminado."

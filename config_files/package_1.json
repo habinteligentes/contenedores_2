@@ -1,14 +1,18 @@
 {
-    "name": "mi-proyecto_1",
-    "version": "1.0.0",
-    "description": "Proyecto 1 con Node.js más reciente",
-    "main": "index_1.js",
-    "scripts": {
-      "start": "node index_1.js"
-    },
-    "dependencies": {"esm": "^3.2.25"},
-    "engines": {
-      "node": ">=16.0.0"
-    }
+  "name": "mi-proyecto_1",
+  "version": "1.0.0",
+  "description": "Proyecto 1 con Node.js más reciente",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
+}
+
   

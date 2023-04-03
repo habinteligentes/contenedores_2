@@ -1,4 +1,4 @@
-import { readFile } from 'esm';
+import { readFile } from 'fs';
 
 console.log("Iniciando la operación más larga...");
 
