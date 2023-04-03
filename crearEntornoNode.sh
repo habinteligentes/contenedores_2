@@ -24,6 +24,8 @@ cd ${PROJECT_FOLDER}
 
 echo "Creando entorno virtual de Node.js..."
 
+pip3 install nodeenv
+
 python3 -m nodeenv --node="${NODE_VERSION}" env
 
 echo "Entorno virtual de Node.js creado."
