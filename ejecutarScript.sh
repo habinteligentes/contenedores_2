@@ -7,7 +7,7 @@ echo "Mostrando paquetes instalados en el entorno virtual..."
 npm list
 
 echo "Desactivando entorno virtual de Node.js..."
-deactivate_node
+deactivate
 echo "Entorno virtual de Node.js desactivado."
 
 echo "Eliminando entorno virtual..."
