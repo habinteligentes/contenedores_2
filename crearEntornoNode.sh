@@ -23,7 +23,9 @@ echo "Archivos copiados."
 cd ${PROJECT_FOLDER}
 
 echo "Creando entorno virtual de Node.js..."
-python3 -m nodeenv --node="${NODE_VERSION}" env
+
+python3 -m site --user-site -e nodeenv --node="${NODE_VERSION}" env
+
 echo "Entorno virtual de Node.js creado."
 
 echo "Activando entorno virtual de Node.js..."
