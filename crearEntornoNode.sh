@@ -28,7 +28,7 @@ python3 -m nodeenv --node="${NODE_VERSION}" env
 echo "Entorno virtual de Node.js creado."
 
 echo "Contenido de la carpeta actual:"
-ls
+ls env
 
 echo "Activando entorno virtual de Node.js..."
 source env/bin/activate

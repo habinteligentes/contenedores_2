@@ -1,5 +1,4 @@
 
-
 console.log("Iniciando la operación media...");
 function countDown(seconds) {
     let counter = seconds;
@@ -14,3 +13,8 @@ function countDown(seconds) {
   }
   
   countDown(40);
+
+const _ = require('lodash');
+const array = [1, 2, 3];
+const mappedArray = _.map(array, (num) => num * 2);
+console.log(mappedArray); // Output: [2, 4, 6]
