@@ -12,6 +12,7 @@ pipeline {
             steps {
                 sh 'chmod +x crearEntornoNode.sh'
                 sh 'chmod +x ejecutarScript.sh'
+                sh 'chmod +x /home/ec2-user/.local/bin/nodeenv'
             }
         }
 
